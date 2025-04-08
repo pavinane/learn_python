@@ -41,3 +41,8 @@ department =  input()
 print(f"My name is :  {name}")
 print (f"My Score is : {score/10}")
 print ("My Department is :",department)
+
+# Example 5 Modules method
+a = int(input("Enter number"))
+print(f'{a/2} is answer ans {a%2} is remainder')
+    

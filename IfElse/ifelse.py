@@ -104,16 +104,39 @@
 
 # Example 9
 
-salary = int(input("Enter salary : "))
-age = int(input("Enter age : "))
+# salary = int(input("Enter salary : "))
+# age = int(input("Enter age : "))
 
-if(salary >= 20000 or age <= 25):
-    loan = int(input("Enter loan amount: "))
-    if(loan <= 50000):
-        print("Loan amount eligible")
-    else:
-        print("Your are not eligible for loan")
+# if(salary >= 20000 or age <= 25):
+#     loan = int(input("Enter loan amount: "))
+#     if(loan <= 50000):
+#         print("Loan amount eligible")
+#     else:
+#         print("Maximum loan amount is 50000")
+# else:
+#     print ("Your are not eligible for loan")
+
+
+# Example 10
+
+tamil = int(input("Enter Tamil Score : "))
+english = int(input("Enter English Score : "))
+maths = int(input("Enter Maths Score : "))
+science = int(input("Enter Science Score : "))
+social = int(input("Enter Social Score : "))
+
+totalScore = tamil +english +maths +science +social
+print(f"total score {totalScore}")
+percentage = (totalScore / 500) * 100
+print(f"Percentage: {percentage:.2f}%")
+if(percentage <35):
+    print(f"Additional class is required")
 else:
-    print ("Your are not eligible for loan")
+    print("You are good to go")
+
+
+
+
+
 
 

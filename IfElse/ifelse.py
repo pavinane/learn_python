@@ -127,8 +127,10 @@ social = int(input("Enter Social Score : "))
 
 totalScore = tamil +english +maths +science +social
 print(f"total score {totalScore}")
+
 percentage = (totalScore / 500) * 100
 print(f"Percentage: {percentage:.2f}%")
+
 if(percentage <35):
     print(f"Additional class is required")
 else:

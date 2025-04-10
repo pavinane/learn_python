@@ -47,10 +47,29 @@
 # print (sum)
 
 # Example 4  : cube of the number
-n= int(input())
-cube =0
+# n= int(input())
+# cube =0
 
-for i in range(n+1):
-   print (i *i *i)
+# for i in range(n+1):
+#    print (i *i *i)
 
 
+# Example 5 remove duplicate valu
+
+var = "aaabbbbcdd"
+result = ""
+
+for char in var:
+    if char not in result:
+        result += char
+
+print("String after removing duplicates:", result)
+
+var = "aaabbbbcdd"
+result = ""
+
+for char in var:
+    if var.count(char) == 1:
+        result += char
+
+print("Characters that are not duplicated:", result)

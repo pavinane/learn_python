@@ -76,13 +76,12 @@
 
 # Example 10
 
-three = 0
+# count = 0
 
-
-for i in range(1,101):
-    if(i%3 ==0 and i%5 ==0):
-        three = three +1
+# for i in range(1,101):
+#     if(i%3 ==0 and i%5 ==0):
+#         count = count +1
   
 
-print (three)
+
 

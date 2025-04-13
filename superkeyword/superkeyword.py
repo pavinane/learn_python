@@ -23,8 +23,6 @@ class c(b,a):   # kind of acces argumnet must be reverse when middle of class re
         super().__init__()   
         print("C")
 
- 
 
-# obj1 = b()
 
 obj1 = c()
